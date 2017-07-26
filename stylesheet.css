@@ -30,7 +30,6 @@ body {
   overflow: hidden;
   background-color: white;
   z-index: 1;
-  position: center;
 }
 
 .navbar a {
