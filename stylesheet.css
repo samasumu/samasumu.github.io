@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -24,6 +24,9 @@ h1 {
 h3 {
   font-family: 'Lily Script One', cursive;
   font-size: 25px;
+  word-spacing: 0.07em;
+  letter-spacing: 0.15em;
+  padding: 100px 0px 10px 0px;
 }
 
 h4 {
@@ -37,7 +40,7 @@ p {
 }
 
 
-/* nav bar css */
+/* This is style your navigation bar */
 
 
 .navbar {
@@ -60,12 +63,12 @@ p {
   padding: 20px 20px;
   letter-spacing: 0.07em;
   font-family: 'Raleway', sans-serif;
-
 }
 
-/* hero css */
+/* Styling for your hero/banner image */
 
 .hero {
+  clear: both;
   background-image: url("images/bonsai-1839213_1280.jpg");
   height: 50%;
   background-position: center;
@@ -89,34 +92,22 @@ p {
 
 
 
-/* about */
+/* about section for your plants */
 
 .aboutsection {
-  display: inline-block;
-  width: 45%;
-  margin: 15px;
+  display: block;
+  width: 20%;
+  margin: auto
 }
 
 .aboutsection img {
-  max-width: 100%;
+  max-width: 415px;
   margin-top: auto;
 }
 
-.about h3 {
-    text-align: center;
-    word-spacing: 0.07em;
-    letter-spacing: 0.15em;
-    padding: 100px 0px 10px 0px;
-}
+
 
 /* plants */
-
-.plants h3 {
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding: 100px 0px 10px 0px;
-}
-
 
 .planttext {
   text-align: center;
@@ -127,6 +118,16 @@ p {
   color: black;
 }
 
+.plants img{
+  max-width: 415px;  
+}
 
-/* footer */
 
+/* don't forget to add information here */
+
+.footer p {
+  text-align: center; 
+  width: 50%; 
+  margin: auto; 
+  padding: 10px;
+}
