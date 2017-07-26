@@ -21,29 +21,27 @@ body {
 
 /* nav bar css */
 
-.nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      overflow: hidden;
-}
 
 .navbar {
-  list-style-type: none;
-  text-align: center;
-}
-
-.navbar li { 
-  display: inline-block;
-  padding: 14px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  background-color: white;
+  z-index: 1;
+  position: center;
 }
 
 .navbar a {
+  float: left;
+  display: block;
+  text-align: center;
   text-decoration: none;
-  color: black;
-  font-size:20px;
-  padding: 14px 16px;
-      word-spacing: 0.07em;
+  color: #333;
+  font-size:15px;
+  padding: 20px 20px;
+  word-spacing: 0.07em;
   letter-spacing: 0.1em;
 }
 
@@ -57,6 +55,7 @@ body {
   background-size: cover;
   position: relative;
   margin-top: 60px;
+  opacity: 0.7
 }
 
 .hero-text {
@@ -84,9 +83,22 @@ body {
 
 .aboutsection img {
   max-width: 100%;
+  margin-top: auto;
+}
+
+.about h3 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 100px 0px 10px 0px;
 }
 
 /* plants */
+
+.plants h3 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 100px 0px 10px 0px;
+}
 
 .plantsectionimg {
   background-image: url("images/fittonia-1458810_1280.jpg");
