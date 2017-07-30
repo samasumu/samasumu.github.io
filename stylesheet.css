@@ -96,17 +96,27 @@ p {
 /* about section for your plants */
 
 .about {
-  width: 100%;
+  width: inherit;
+  display: flex;
+  flex-direction:column;
+  background-color: lightgray;
 }
-
+.section-2{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
 .aboutsection {
-  display: inline-block;
-  max-width: 50%
+  flex-wrap:nowrap;
+  background-color: aquamarine;
+  margin: 2px;
+  height: 95%;
+  
 }
 
 .aboutsection img {
   margin-top: auto;
-  max-width: 50%;
+  max-height: 415px;
 }
 
 
